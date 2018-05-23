@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>FINAL_DB</Name>
+    <ProjectGuid>e9649a6a-e765-4e51-af8f-5b939e3a20cd</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>FINAL_DB</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="answer.php" />
+    <Compile Include="appvars.php" />
+    <Compile Include="connectvars.php" />
+    <Compile Include="editprofile.php" />
+    <Compile Include="editprofilec.php" />
+    <Compile Include="editprofileu.php" />
+    <Compile Include="index.php" />
+    <Compile Include="indexa.php" />
+    <Compile Include="login.php" />
+    <Compile Include="logout.php" />
+    <Compile Include="question.php" />
+    <Compile Include="signup.php" />
+    <Compile Include="topic.php" />
+    <Compile Include="viewanswer.php" />
+    <Compile Include="viewanswerc.php" />
+    <Compile Include="vote.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="css\" />
+    <Folder Include="images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\login.css" />
+    <Content Include="css\stylesheet-pure-css.css" />
+    <Content Include="images\avatar2.png" />
+    <Content Include="images\avatar3.png" />
+  </ItemGroup>
+</Project>
